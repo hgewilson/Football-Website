@@ -1,0 +1,174 @@
+body {
+	/* background-color: lightblue; */
+	margin: 0;
+	font-family: verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+p {
+/*	font-size: 16px;*/
+	margin: 0;
+}
+
+#profilepicture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	max-width: 500px;
+	max-height: 500px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 10px;
+	box-sizing: border-box;
+}
+
+.name {
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 50px;
+	width: 300px;
+	padding: 20px;
+	border-width: 10px;
+	border-color: green;
+	border-style: solid;
+	color: red;
+	background-color: cyan;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	background-color: midnightblue;
+}
+
+li {
+	padding: 0px;
+	flex: 1;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	flex: 1;
+	display: block;
+	padding: 16px 10px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: slategrey;
+}
+
+/* .active {
+	background-color: green;
+} */
+
+.header {
+	background-color: midnightblue;
+	padding: 15px;
+	text-align: center;
+	color: white;
+}
+
+.header img,
+.header p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+	font-size: 2.3em;
+}
+
+.articles {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 6%;
+	padding: 4%;
+	margin-bottom: 175px;
+}
+
+.articles > div {
+	border: 1px solid black;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5%;
+}
+
+.articles img {
+	height: 100%;
+	width: 100%;
+	border-radius: 5%;
+}
+
+.articles a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.featured {
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 2;
+}
+
+
+.topbit {
+	margin: 0px 28%;
+	font-family: Georgia, "Times New Roman";
+}
+
+.cat {
+	font-size: 0.8em;
+	color: green;
+	margin: 20px 0px;
+}
+
+.headline {
+	font-size: 3.1em;
+	margin-bottom: 25px;
+} 
+
+.writer {
+	font-size: 1.4em;
+	margin-bottom: 25px;	
+}
+
+.image{
+	margin: 25px 0;
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.text {
+	max-width: 700px;
+	margin: 0px auto 20px;
+	font-family: AGaramondPro;
+}
+
+.text p {
+	margin-bottom: 20px;
+	font-size: 1.1em;
+}
+
+/*#Footer {
+	padding: 100px;
+}*/
+#Footer {
+	background-color: midnightblue;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	bottom: 0;
+	font-size: 0.9em;
+	margin-top: 40px;
+}
