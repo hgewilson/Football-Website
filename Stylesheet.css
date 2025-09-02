@@ -139,6 +139,7 @@ li a:hover {
 .writer {
 	font-size: 1.4em;
 	margin-bottom: 25px;	
+	color: #e28743;
 }
 
 .image{
@@ -147,6 +148,17 @@ li a:hover {
 	height: auto;
 	display: flex;
 	justify-content: center;
+}
+figure {
+  text-align: center;
+  margin: 1em auto;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  font-style: italic;
+  margin-top: 0.5em;
 }
 
 .text {
@@ -158,6 +170,12 @@ li a:hover {
 .text p {
 	margin-bottom: 20px;
 	font-size: 1.1em;
+}
+
+.text h1 {
+	margin-bottom: 20px;
+	font-size: 1.7em;
+	font-thickness: bold;
 }
 
 /*#Footer {
